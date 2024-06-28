@@ -5,8 +5,8 @@ import {
 function Header() {
 
     return (
-            <div className="bg-zylo-blue-100 p-8 flex justify-center items-center">
-                <div className="bg-white p-4 xl:p-8 w-full flex flex-col xl:flex-row justify-between items-center xl:items-left rounded-lg">
+            <div className="bg-gradient-to-br from-zylo-blue-100 to-zylo-blue-300 p-8 flex justify-center items-center">
+                <div className="bg-gradient-to-tl from-white to-zylo-gray p-4 xl:p-8 w-full flex flex-col xl:flex-row justify-between items-center xl:items-left rounded-lg">
                     <NavLink to="/" className="w-1/2 xl:w-1/6">
                         <img src="/zylo-logo.png" alt="Zylo Logo" />
                     </NavLink>                    

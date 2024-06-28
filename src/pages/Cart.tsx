@@ -41,10 +41,10 @@ const Cart: React.FC<CartProps> = ({ cart, setCart }) => {
                 </div>
             ) }
             <div className="flex justify-center mt-4 mb-4 gap-4 flex-row">
-                <Link to="/catalog" className="w-1/4 text-center text-sm md:text-xl bg-zylo-blue-400 text-white p-2 rounded-lg inline-block hover:cursor-pointer hover:bg-zylo-blue-300">
+                <Link to="/catalog" className="bg-gradient-to-tr from-zylo-blue-400 to-zylo-blue-300 hover:from-zylo-blue-200 hover:to-zylo-blue-100 hover:text-zylo-blue-400 w-1/4 text-center text-sm md:text-xl text-white p-2 rounded-lg inline-block hover:cursor-pointer hover:bg-zylo-blue-300">
                     Back to catalog
                 </Link>
-                <Link to="/checkout" className="w-1/4 text-center text-sm md:text-xl bg-zylo-blue-400 text-white p-2 rounded-lg inline-block hover:cursor-pointer hover:bg-zylo-blue-300">
+                <Link to="/checkout" className="bg-gradient-to-tr from-zylo-blue-400 to-zylo-blue-300 hover:from-zylo-blue-200 hover:to-zylo-blue-100 hover:text-zylo-blue-400 w-1/4 text-center text-sm md:text-xl text-white p-2 rounded-lg inline-block hover:cursor-pointer hover:bg-zylo-blue-300">
                     Go to checkout
                 </Link>
             </div>

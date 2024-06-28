@@ -46,7 +46,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ cart, setCart }) => {
             <div className="ml-8 mr-8 text-center text-2xl">
                 The requested product was not found in our database.
             </div>
-            <Link to="/catalog" className="ml-8 mt-4 mb-8 xl:ml-0 text-xl bg-zylo-blue-400 text-white p-2 rounded-lg inline-block hover:cursor-pointer hover:bg-zylo-blue-300">
+            <Link to="/catalog" className="bg-gradient-to-tr from-zylo-blue-400 to-zylo-blue-300 hover:from-zylo-blue-200 hover:to-zylo-blue-100 hover:text-zylo-blue-400 ml-8 mt-4 mb-8 xl:ml-0 text-xl text-white p-2 rounded-lg inline-block hover:cursor-pointer hover:bg-zylo-blue-300">
                 Back to catalog
             </Link>
         </>
@@ -59,10 +59,10 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ cart, setCart }) => {
                     <div className="ml-8 mr-8 xl:m-0 text-xl text-zylo-blue-400">{p.description}</div>
                     <div className="ml-8 mr-8 mt-4 xl:m-0 text-2xl text-zylo-blue-400">${p.price.toFixed(2)}</div>
                     <div className="flex flex-row gap-4">
-                        <div onClick={() => { addToCart(p ? p.id : -1) }} className="ml-8 mt-4 mb-8 xl:ml-0 text-xl bg-zylo-blue-400 text-white p-2 rounded-lg inline-block hover:cursor-pointer hover:bg-zylo-blue-300">
+                        <div onClick={() => { addToCart(p ? p.id : -1) }} className="bg-gradient-to-tr from-zylo-blue-400 to-zylo-blue-300 hover:from-zylo-blue-200 hover:to-zylo-blue-100 hover:text-zylo-blue-400 ml-8 mt-4 mb-8 xl:ml-0 text-xl text-white p-2 rounded-lg inline-block hover:cursor-pointer hover:bg-zylo-blue-300">
                             Add to cart
                         </div>
-                        <Link to="/catalog" className="mt-4 mb-8 text-xl bg-zylo-blue-400 text-white p-2 rounded-lg inline-block hover:cursor-pointer hover:bg-zylo-blue-300">
+                        <Link to="/catalog" className="bg-gradient-to-tr from-zylo-blue-400 to-zylo-blue-300 hover:from-zylo-blue-200 hover:to-zylo-blue-100 hover:text-zylo-blue-400 mt-4 mb-8 text-xl text-white p-2 rounded-lg inline-block hover:cursor-pointer hover:bg-zylo-blue-300">
                             Back to catalog
                         </Link>
                     </div>
