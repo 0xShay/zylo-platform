@@ -18,14 +18,14 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ cart, setCart }) => {
     let productID = parseInt(num || '-1');
 
     let p = productData.find(p => {
-        return p.id == productID;
+        return p.id === productID;
     });
 
     function addToCart(productId: number) {
         let updated: boolean = false;
         console.log(cart);
         for (let i in cart) {
-            if (cart[i].productId == productID) {
+            if (cart[i].productId === productID) {
                 cart[i].quantity += 1;
                 updated = true;
                 break;
@@ -40,7 +40,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ cart, setCart }) => {
         navigate("/cart");
     }
 
-    return p == undefined ? (
+    return p === undefined ? (
         <>
             <h1 className="text-4xl mt-16 ml-4 mr-4 mb-4 text-center text-zylo-blue-300">Product not found</h1>
             <div className="ml-8 mr-8 text-center text-2xl">

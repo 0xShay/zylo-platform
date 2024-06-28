@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useParams, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import CartItem from '../types/CartItem';
 import CartProduct from '../components/cart/CartProduct';
@@ -13,7 +13,7 @@ interface CartProps {
 
 function getProductById(id: number) {
     return productData.find(p => {
-        return p.id == id;
+        return p.id === id;
     });
 }
 
@@ -24,13 +24,13 @@ const Cart: React.FC<CartProps> = ({ cart, setCart }) => {
             <h1 className="text-4xl mt-16 ml-4 mr-4 mb-8 text-center text-zylo-blue-300">Cart</h1>
             { cart.map(ci => {
                 let p = productData.find(p => {
-                    return p.id == ci.productId;
+                    return p.id === ci.productId;
                 });
                 return p && (
                     <CartProduct key={p.id} cart={cart} setCart={setCart} id={p.id} name={p.name} price={p.price} description={p.description} imageURL={p.image} quantity={ci.quantity}></CartProduct>
                 )
             }) }
-            { cart.length == 0 ? (
+            { cart.length === 0 ? (
                 <div className="ml-8 mr-8 text-center text-2xl">
                     There are no items in your cart.
                 </div>

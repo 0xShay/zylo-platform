@@ -1,5 +1,4 @@
 import {
-    BrowserRouter,
     NavLink,
 } from 'react-router-dom';
 

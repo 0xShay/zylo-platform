@@ -22,7 +22,7 @@ const CartProduct: React.FC<CartProductProps> = ({ cart, setCart, id, name, pric
         for (let index in cart) {
             let ci: CartItem = cart[index];
             if (ci.productId === productId) {
-                if (newQuantity == 0) {
+                if (newQuantity === 0) {
                     delete cart[index];
                 } else {
                     newCart.push({ ...ci, quantity: newQuantity });
