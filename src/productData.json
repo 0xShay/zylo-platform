@@ -1,0 +1,194 @@
+[
+    {
+        "id": 1,
+        "name": "Men's Tailored Shorts",
+        "description": "These tailored shorts are crafted from high-quality fabric for a comfortable fit. Ideal for both casual and semi-formal occasions, they feature a classic design with a single button closure and belt loops",
+        "price": "$35.00",
+        "image": "/products/mens-performance-chino-7-short-slategrey.png",
+        "category": "Mens/Bottoms"
+    },
+    {
+        "id": 2,
+        "name": "Men's Polo Shirt",
+        "description": "A classic men's polo shirt made from breathable cotton, perfect for everyday wear. This shirt features a three-button placket and a comfortable fit, making it a versatile addition to any wardrobe",
+        "price": "$25.00",
+        "image": "/products/mens-good-earth-cotton-polo-navy.jpeg",
+        "category": "Mens/Tops"
+    },
+    {
+        "id": 3,
+        "name": "Men's Drawstring Shorts",
+        "description": "Comfortable and stylish, these drawstring shorts are perfect for casual outings. Made from lightweight fabric, they offer a relaxed fit and feature an adjustable waistband for added comfort",
+        "price": "$30.00",
+        "image": "/products/mens-linen-easy-short2-black.jpeg",
+        "category": "Mens/Bottoms"
+    },
+    {
+        "id": 4,
+        "name": "Men's Crew Neck T-Shirt",
+        "description": "A staple for any wardrobe, this men's crew neck t-shirt is made from soft, high-quality cotton. It offers a classic fit and is available in multiple colors to suit any style",
+        "price": "$20.00",
+        "image": "/products/mens-surplus-tee-black.jpeg",
+        "category": "Mens/Tops"
+    },
+    {
+        "id": 5,
+        "name": "Men's Button-Up Shirt (Dark Grey)",
+        "description": "This versatile button-up shirt is perfect for both casual and formal settings. Made from premium cotton, it features a chest pocket and buttoned cuffs for a polished look",
+        "price": "$40.00",
+        "image": "/products/mens-organic-oxford-shirt-slate-grey.jpeg",
+        "category": "Mens/Tops"
+    },
+    {
+        "id": 6,
+        "name": "Men's Button-Up Shirt (Beige)",
+        "description": "A stylish beige button-up shirt suitable for various occasions. Crafted from soft, durable fabric, it offers a comfortable fit and features a classic collar and front pocket.",
+        "price": "$40.00",
+        "image": "/products/mens-organic-oxford-shirt-slate-grey.jpeg",
+        "category": "Mens/Tops"
+    },
+    {
+        "id": 7,
+        "name": "Men's Performance T-Shirt",
+        "description": "Designed for active lifestyles, this performance t-shirt is made from moisture-wicking fabric to keep you cool and dry. It offers a comfortable fit and is perfect for workouts or casual wear.",
+        "price": "$25.00",
+        "image": "/products/cool_daily_tshirt_men.jpeg",
+        "category": "Mens/Tops"
+    },
+    {
+        "id": 8,
+        "name": "Men's Drawstring Shorts with Patch",
+        "description": "These men's drawstring shorts feature a unique patch design and are made from comfortable fabric. They offer a relaxed fit and an adjustable waistband, perfect for casual wear",
+        "price": "$28.00",
+        "image": "/products/mens-retrack-short-black.jpeg",
+        "category": "Mens/Bottoms"
+    },
+    {
+        "id": 9,
+        "name": "Men's Light Wash Jeans",
+        "description": "These light wash jeans offer a modern look with a slim fit. Made from durable denim, they are perfect for both casual and semi-formal occasions.",
+        "price": "$45.00",
+        "image": "/products/mens-selvedge-slim-fit-jean-clear-sky.jpeg",
+        "category": "Mens/Bottoms"
+    },
+    {
+        "id": 10,
+        "name": "Men's Dark Blue Jeans",
+        "description": "A pair of dark blue jeans with a classic fit. These jeans are versatile and can be paired with a variety of outfits for different occasions.",
+        "price": "$45.00",
+        "image": "/products/mens-uniform-performance-slim-jean-marine.jpeg",
+        "category": "Mens/Bottoms"
+    },
+    {
+        "id": 11,
+        "name": "Men's Chino Pants (Camel)",
+        "description": "These camel-colored chino pants are made from high-quality fabric, offering comfort and style. They are ideal for both casual and business casual settings.",
+        "price": "$40.00",
+        "image": "/products/mens-performance-5-pocket-chino-ochre.jpeg",
+        "category": "Mens/Bottoms"
+    },
+    {
+        "id": 12,
+        "name": "Men's Jogger Pants (Blue)",
+        "description": "These blue jogger pants are perfect for a relaxed and sporty look. They feature an elastic waistband and cuffs for a comfortable fit.",
+        "price": "$30.00",
+        "image": "/products/mens-track-pant-blue.jpeg",
+        "category": "Mens/Bottoms"
+    },
+    {
+        "id": 13,
+        "name": "Men's White Polo Shirt",
+        "description": "A classic white polo shirt made from breathable cotton. This shirt is perfect for everyday wear and can be dressed up or down.",
+        "price": "$25.00",
+        "image": "/products/mens-linen-ss-popover-shirt-white.jpeg",
+        "category": "Mens/Tops"
+    },
+    {
+        "id": 14,
+        "name": "Women's Tailored Shorts (Cream)",
+        "description": "These tailored shorts in cream are perfect for a polished summer look. Made from high-quality fabric",
+        "price": "$20.00",
+        "image": "/products/womens-linen-way-high-drape-short-bone.jpeg",
+        "category": "Womens/Bottoms"
+    },
+    {
+        "id": 15,
+        "name": "Women's Wrap Skirt",
+        "description": "A chic and versatile wrap skirt in black",
+        "price": "$23.00",
+        "image": "/products/womens-linen-wrap-skirt-new-black.jpeg",
+        "category": "Womens/Bottoms"
+    },
+    {
+        "id": 16,
+        "name": "Women's High-Waisted Trousers",
+        "description": "These high-waisted trousers in brown are designed for both comfort and style. Featuring large front pockets and a tailored fit",
+        "price": "$30.00",
+        "image": "/products/womens-bi-stretch-utility-pant-cocoa-brown.jpeg",
+        "category": "Womens/Bottoms"
+    },
+    {
+        "id": 17,
+        "name": "Women's Wide-Leg Pants (Green)",
+        "description": "Make a statement with these vibrant green wide-leg pants. Designed for a relaxed fit",
+        "price": "$32.00",
+        "image": "/products/womens-linen-easy-pant-grass-green.jpeg",
+        "category": "Womens/Bottoms"
+    },
+    {
+        "id": 18,
+        "name": "Women's Floral Print Pants",
+        "description": "These floral print pants offer a fun and stylish look. The black and white floral design adds a touch of elegance",
+        "price": "$30.00",
+        "image": "/products/womens-linen-pull-on-barrel-pant-black-bone-floral.jpeg",
+        "category": "Womens/Bottoms"
+    },
+    {
+        "id": 19,
+        "name": "Women's Navy Flared Trousers",
+        "description": "A pair of classic navy flared trousers that provide a sophisticated look. These trousers are perfect for professional settings or evening events",
+        "price": "$25.00",
+        "image": "/products/womens-bi-stretch-flare-pant-navy.jpeg",
+        "category": "Womens/Bottoms"
+    },
+    {
+        "id": 20,
+        "name": "Women's Sleeveless Top (Olive)",
+        "description": "This olive sleeveless top is perfect for warm weather. It features a V-neck with tie detail at the back and a peplum hem",
+        "price": "$35.00",
+        "image": "/products/womens-satin-v-neck-top-kalamata.jpeg",
+        "category": "Womens/Tops"
+    },
+    {
+        "id": 21,
+        "name": "Women's White Button-Up Shirt",
+        "description": "A classic white button-up shirt",
+        "price": "$35.00",
+        "image": "/products/womens-linen-popover-shirt-white.jpeg",
+        "category": "Womens/Tops"
+    },
+    {
+        "id": 22,
+        "name": "Women's Short-Sleeve Blouse",
+        "description": "This elegant short-sleeve blouse in a soft beige hue is ideal for warm weather. It features a traditional collar and button-down front",
+        "price": "$20.00",
+        "image": "/products/womens-tencel-oversized-ss-shirt-bone.jpeg",
+        "category": "Womens/Tops"
+    },
+    {
+        "id": 23,
+        "name": "Women's Floral Print Tank Top",
+        "description": "A stylish floral print tank top",
+        "price": "$23.00",
+        "image": "/products/womens-linen-scoop-neck-tank-black-bone-floral.jpeg",
+        "category": "Womens/Tops"
+    },
+    {
+        "id": 24,
+        "name": "Women's Printed Blouse",
+        "description": "This printed blouse features a unique black and brown pattern. With its relaxed fit and half sleeves",
+        "price": "$25.00",
+        "image": "/products/womens-linen-scoop-neck-top-carob-brown-abstract.jpeg",
+        "category": "Womens/Tops"
+    }
+]
