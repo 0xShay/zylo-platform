@@ -17,7 +17,7 @@ const Catalog: React.FC<CatalogProps> = ({ cart, setCart }) => {
             <h1 className="text-4xl mt-16 mb-8 text-center text-zylo-blue-300">Catalog</h1>
             <div className="flex flex-row flex-wrap gap-4 justify-center mb-8">
                 { productData.map(p => (
-                    <CatalogProduct key={p.id} id={p.id} name={p.name} description={p.description} imageURL={p.image} />
+                    <CatalogProduct key={p.id} id={p.id} name={p.name} price={p.price} description={p.description} imageURL={p.image} />
                 )) }
             </div>
         </>
