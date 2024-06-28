@@ -23,7 +23,21 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ cart, setCart }) => {
     });
 
     function addToCart(productId: number) {
-        setCart(cart.concat([ { productId } ]));
+        let updated: boolean = false;
+        console.log(cart);
+        for (let i in cart) {
+            if (cart[i].productId == productID) {
+                cart[i].quantity += 1;
+                updated = true;
+                break;
+            }
+        }
+        console.log(cart);
+        if (!updated) {
+            setCart(cart.concat([ { productId, quantity: 1 } ]));
+        } else {
+            setCart(cart);
+        };
         navigate("/cart");
     }
 

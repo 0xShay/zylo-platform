@@ -28,9 +28,7 @@ const Cart: React.FC<CartProps> = ({ cart, setCart }) => {
                     return p.id == ci.productId;
                 });
                 return p && (
-                    <>
-                        <CartProduct key={p.id} id={p.id} name={p.name} price={p.price} description={p.description} imageURL={p.image}></CartProduct>
-                    </>
+                    <CartProduct key={p.id} cart={cart} setCart={setCart} id={p.id} name={p.name} price={p.price} description={p.description} imageURL={p.image} quantity={ci.quantity}></CartProduct>
                 )
             }) }
             { cart.length == 0 ? (
@@ -40,14 +38,14 @@ const Cart: React.FC<CartProps> = ({ cart, setCart }) => {
             ) : (
                 <div className="p-4 pl-8 pr-8 flex flex-row items-center justify-between w-full h-20">
                     <div className="text-xl text-zylo-blue-400">Cart total</div>
-                    <div className="text-xl text-zylo-blue-400">${cart.reduce((acc, curr) => acc + (getProductById(curr.productId)?.price || 0), 0).toFixed(2)}</div>
+                    <div className="text-xl text-zylo-blue-400">${cart.reduce((acc, curr) => acc + ((getProductById(curr.productId)?.price || 0) * curr.quantity), 0).toFixed(2)}</div>
                 </div>
             ) }
             <div className="flex justify-center mt-4 mb-4 gap-4 flex-row">
                 <Link to="/catalog" className="w-1/4 text-center text-sm md:text-xl bg-zylo-blue-400 text-white p-2 rounded-lg inline-block hover:cursor-pointer hover:bg-zylo-blue-300">
                     Back to catalog
                 </Link>
-                <Link to="/catalog" className="w-1/4 text-center text-sm md:text-xl bg-zylo-blue-400 text-white p-2 rounded-lg inline-block hover:cursor-pointer hover:bg-zylo-blue-300">
+                <Link to="/checkout" className="w-1/4 text-center text-sm md:text-xl bg-zylo-blue-400 text-white p-2 rounded-lg inline-block hover:cursor-pointer hover:bg-zylo-blue-300">
                     Go to checkout
                 </Link>
             </div>

@@ -1,5 +1,6 @@
 type CartItem = {
-    productId: number
+    productId: number,
+    quantity: number
 }
 
 export default CartItem;
