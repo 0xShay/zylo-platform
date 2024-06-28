@@ -39,10 +39,12 @@ const CartProduct: React.FC<CartProductProps> = ({ cart, setCart, id, name, pric
             <div className="hover:bg-zylo-gray p-4 pl-8 pr-8 flex flex-row items-center justify-between w-full h-40">
                 <Link to={`/product/${id}`} className="flex flex-row items-center justify-left w-full h-40">
                     <img src={imageURL} alt={name} className="h-5/6 w-auto object-cover object-center" style={{ aspectRatio: '1/1' }} />
-                    <div className="w-1/3 text-xl text-zylo-blue-300 ml-8">{name}</div>
+                    <div className="w-1/3 text-md md:text-xl text-zylo-blue-300 ml-8">{name}</div>
                 </Link>
-                <div className="text-xl text-zylo-blue-300 text-right">${price.toFixed(2)}<br />x{quantity}</div>
-                <input type="number" className="ml-4 text-xl w-20 rounded-md shadow-md" value={quantity} onChange={(e) => setQuantity(id, parseInt(e.target.value))} />
+                <div className="flex flex-col lg:flex-row">
+                    <div className="text-md md:text-xl text-zylo-blue-300 text-right">${price.toFixed(2)}<br />x{quantity}</div>
+                    <input type="number" className="ml-4 text-md md:text-xl w-14 rounded-md shadow-md" value={quantity} onChange={(e) => setQuantity(id, parseInt(e.target.value))} />
+                </div>
             </div>
         </div>
     )

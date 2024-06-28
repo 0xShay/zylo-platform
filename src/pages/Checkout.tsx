@@ -6,7 +6,7 @@ import CartProduct from '../components/cart/CartProduct';
 
 import productData from '../productData.json';
 
-interface CartProps {
+interface CheckoutProps {
     cart: Array<CartItem>,
     setCart: any
 }
@@ -17,10 +17,19 @@ function getProductById(id: number) {
     });
 }
 
-const Cart: React.FC<CartProps> = ({ cart, setCart }) => {
+const Checkout: React.FC<CheckoutProps> = ({ cart, setCart }) => {
 
     return (
         <>
+            <div className="m-16 text-center text-2xl font-mono">
+                This is where the data about the user's cart would get sent to a backend server and a payment invoice would be generated via an external payment API, which the user will then be redirected to in order to complete their payment for the order.
+            </div>
+        </>
+    );
+
+    return (
+        <> 
+            <code></code>
             <h1 className="text-4xl mt-16 ml-4 mr-4 mb-8 text-center text-zylo-blue-300">Cart</h1>
             { cart.map(ci => {
                 let p = productData.find(p => {
@@ -53,4 +62,4 @@ const Cart: React.FC<CartProps> = ({ cart, setCart }) => {
 
 }
 
-export default Cart;
+export default Checkout;

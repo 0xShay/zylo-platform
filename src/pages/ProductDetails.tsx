@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 
 import CartItem from '../types/CartItem';
-import CatalogProduct from '../components/catalog/CatalogProduct';
 
 import productData from '../productData.json';
 
