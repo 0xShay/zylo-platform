@@ -10,6 +10,10 @@ interface ProductDetailsProps {
     setCart: any
 }
 
+function saveCart(cart: Array<CartItem>) {
+    localStorage.setItem("storedCart", JSON.stringify(cart));
+}
+
 const ProductDetails: React.FC<ProductDetailsProps> = ({ cart, setCart }) => {
 
     const navigate = useNavigate();
@@ -37,6 +41,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ cart, setCart }) => {
         } else {
             setCart(cart);
         };
+        saveCart(cart);
         navigate("/cart");
     }
 

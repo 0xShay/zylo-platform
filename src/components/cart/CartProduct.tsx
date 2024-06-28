@@ -14,6 +14,10 @@ interface CartProductProps {
     quantity: number
 }
 
+function saveCart(cart: Array<CartItem>) {
+    localStorage.setItem("storedCart", JSON.stringify(cart));
+}
+
 const CartProduct: React.FC<CartProductProps> = ({ cart, setCart, id, name, price, description, imageURL, quantity }) => {
  
     function setQuantity(productId: number, newQuantity: number) {
@@ -22,15 +26,15 @@ const CartProduct: React.FC<CartProductProps> = ({ cart, setCart, id, name, pric
         for (let index in cart) {
             let ci: CartItem = cart[index];
             if (ci.productId === productId) {
-                if (newQuantity === 0) {
-                    delete cart[index];
-                } else {
+                if (newQuantity !== 0) {
                     newCart.push({ ...ci, quantity: newQuantity });
                 }
                 break;
             }
             newCart.push(ci);
         }
+        console.log(newCart);
+        saveCart(newCart);
         setCart(newCart);
     }
 

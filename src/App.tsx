@@ -15,10 +15,7 @@ import Contact from './pages/Contact';
 
 function App() {
     const [cart, setCart] = useState([]);
-    if (cart.length == 0 && localStorage.getItem("storedCart") != "[]") setCart(JSON.parse(localStorage.getItem("storedCart")!));
-    if (cart.length > 0) {
-        localStorage.setItem("storedCart", JSON.stringify(cart));
-    };
+    if (cart.length === 0 && localStorage.getItem("storedCart") !== "[]") setCart(JSON.parse(localStorage.getItem("storedCart")!));
     
     return (
         <div className="App">
