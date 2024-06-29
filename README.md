@@ -4,7 +4,7 @@
 
 In the video below I explain what tech stack I used, and why I chose to use those specific tools and frameworks for this project.
 
-[<img src="https://img.youtube.com/vi/KYpEX8v4iXo/hqdefault.jpg" width="600" height="300"
+[<img src="https://img.youtube.com/vi/KYpEX8v4iXo/hqdefault.jpg" width="400" height="300"
 />](https://www.youtube.com/embed/KYpEX8v4iXo)
 
 ## Preview
