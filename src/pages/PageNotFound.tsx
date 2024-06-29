@@ -1,6 +1,5 @@
 import React from 'react';
 
-import CartItem from '../types/CartItem';
 import { Link } from 'react-router-dom';
 
 const PageNotFound: React.FC = () => {
