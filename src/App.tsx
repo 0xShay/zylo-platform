@@ -12,6 +12,7 @@ import ProductDetails from './pages/ProductDetails';
 import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
 import Contact from './pages/Contact';
+import PageNotFound from './pages/PageNotFound';
 
 function App() {
     const [cart, setCart] = useState([]);
@@ -28,7 +29,7 @@ function App() {
                 <Route path="/cart" element={<Cart cart={cart} setCart={setCart} />}></Route>
                 <Route path="/checkout" element={<Checkout cart={cart} setCart={setCart} />}></Route>
                 <Route path="/contact-us" element={<Contact />}></Route>
-                <Route path="*" element={<>Page not found</>}></Route>
+                <Route path="*" element={<PageNotFound />}></Route>
             </Routes>
         </BrowserRouter>
         </div>
